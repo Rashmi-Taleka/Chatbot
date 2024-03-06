@@ -1,0 +1,120 @@
+
+{
+	"intents":[
+        {
+                "tag":"greeting",
+                "patterns":["Hi",
+                            "Hey",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day"],
+                "responses":["Hey:-)",
+                            "Hello, thanks for visiting",
+                            "Hi there, what can I do for you?",
+                            "Hi there, how can i help?"]
+        
+        },
+        {
+                "tag":"goodbye",
+                "patterns":["Bye","See you later","Goodbye"],
+                "responses":[
+                            "See you later,thanks for visting",
+                            "Have a nice day",
+                            "Bye! Come back again soon."]
+        
+        },
+        {
+                "tag": "Definition",
+                "patterns": ["what is poultry?","Define poultry?"],
+                "responses": ["The word poultry applies to all domestic fowl raised for their eggs, their meat, or both."]
+                },
+        {
+                "tag":"Merits",
+                "patterns":["Why raise poultry?",
+                            "What are the benefits of raising poultry?",
+                            "Advantages of raising poultry?"],
+                "responses":["High-quality protein", 
+                            "Profit",
+                            "Increasing local employment"]
+        },
+        {
+                "tag": "Demerits",
+                "patterns":["what are the demerits of poultry?",
+                            "Disadvantages of poultry?",
+                            "why one shld not take poultry?",
+                            "risks of poultry"],
+                "responses":["Farmers scant savings or put him or her deeply into debt",
+                            " Market cycles can hurt or destroy a poultry project even if it is well run",
+                            "Labor stoppages can cause the operation to fail",
+                            "Compared to traditional ways of raising chicken these projects need a large per bird investment"]
+        
+        },
+        {
+                "tag":"Items",
+                "patterns":["Items Needed to Raise Poultry?",
+                            " what are the necessary things to be having?", 
+                            "must items to raise poultry ?"],
+                "responses":["Just as humans have certain minimum requirements for life, basic chicken needs must be provided by the farmer ",
+                            "shelter", 
+                            "protection from disease, pests, and predators",
+                            "temperature and humidity controls" ,"sanitation", 
+                            "Control of light and elimination of stresses",
+                            "The most important element in poultry raising is a good relationship between the caretaker and the flock"]
+        },
+        {
+                "tag": "diseases",
+                "patterns": ["What are the types of diseases?",
+                            "Disease varieties?","What are the infections that can occour?",
+                            "Diseases that the chickens get infected?","list some diseases",
+                            "List the number of diseases that a poultry is susceptible to"],
+                "responses": ["fowl typhoid", "pullorum", "fowl cholera", "chronic respiratory disease", 
+                                "infectious sinusitis", "infectious coryza", "avian infectious hepatitis",
+                                "infectious synovitis", "bluecomb", "Newcastle disease",
+                                "fowl pox"," avian leukosis complex"," coccidiosis", "blackhead",
+                                "infectious laryngotracheitis", "infectious bronchitis", " erysipelas"]
+        },
+        {
+                "tag": "serious disease",
+                "patterns": ["what are some serious diseases that is observed in poultry ?",
+                            "diseases that are fatal ",
+                            "diseases that have led to the culling of millions of poultry animals"],
+                "responses": ["Bird flu ","avian influenza"]
+        },
+        {
+                "tag":"Vaccination",
+                "patterns":["Measures to control disease? Disease preventing measures?",
+                            "Preventive measures?", "Vaccinations to prevent disease?",
+                             "What are different methods of vaccinations?"],
+                "responses":
+                            [" Medicine or eye dropper",
+                            "Feather follicle",
+                             "Wing web stick",
+                            "Drinking water",
+                            "Intramuscular"]
+        
+        },
+        {
+                "tag": "Management",
+                "patterns":["what are the critical focus areas to succesful poultry production?",
+                            "What are some best management practices?", 
+                            "what practices if followed leads to success in poultry?",
+                            " Types of management practices?"],
+                "responses":["Biosecurity", "Downtime between flocks","Pre-placement preparation","Coccidiosis prevention",
+                    "Brooding management","Litter management","Water management","Feed management",
+                    "Stocking density","Environmental management","Monitoring during times of transition", 
+                    "Keeping an eye on equipment","Mortality checks","Flock health management", "Communication and teamwork"]
+        
+        },
+       
+        {
+                "tag":"Types",
+                "patterns": ["what are types of poultry?",
+                    "list the different types of poultry?",
+                    "different kinds of poultry?",
+                    "list few varieties of poultry?"],
+                "responses": ["Poultry includes Chickens","Turkeys","Ducks and geese","Guinea fowl and squabs", "pheasants", "quail", " pigeons"]
+        }
+    ]
+}
+    
